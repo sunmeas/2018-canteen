@@ -7,9 +7,10 @@
 				<div class="sidenav">
 				  <a href="<?php echo base_url() ?>dishes/dryFood"><i class="mdi mdi-rice"></i>&nbsp; Dry Food</a>
 				  <a href="<?php echo base_url() ?>dishes/waterFood"><i class="mdi mdi-rice"></i>&nbsp; Water Food</a>
-				  <a href="<?php echo base_url() ?>dishes/menu"><i class="mdi mdi-rice"></i>&nbsp; Menu</a>
+				  <a href="<?php echo base_url() ?>dishes/menu"><i class="mdi mdi-rice"></i>&nbsp; Food Menus</a>
 				  <a href="<?php echo base_url() ?>dishes/favouriteFood "><i class="mdi mdi-heart"></i>&nbsp; Favourite Food</a>
-				  <a href="<?php echo base_url() ?>calender/getCalender"><i class="mdi mdi-calender"></i>&nbsp; calender</a>  
+				  <a href="<?php echo base_url() ?>calendar/getCalendar"><i class="mdi mdi-calendar"></i>&nbsp; Even Calendar</a>  
+				  <a href="<?php echo base_url() ?>calendar/getCalendar"><i class="mdi mdi-calendar"></i>&nbsp; Menu Calendar</a>  
 				</div>
 			</div>
 		</div>

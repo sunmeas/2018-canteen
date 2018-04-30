@@ -23,13 +23,13 @@
         <div class="card bg-default ">
           <div class="card-body">
               <div class="form-group">
-                <input type="text" name="login" class="form-control" placeholder="Login" required autofocus id="login">
+                <input type="text" name="login" class="form-control" placeholder="Username" required autofocus id="login">
               </div>
               <div class="form-group">
                <input type="password" name="password" class="form-control" placeholder="Password" required id="password">
               </div>
                <button class="btn btn-outline-info float-right " type="submit" id="btn-login">Sign in</button>
-               <a href="<?php echo base_url() ?>" class="btn btn-outline-danger ">Cancle</a>
+               <a href="<?php echo base_url() ?>" class="btn btn-outline-danger ">Cancel</a>
                 <?php echo validation_errors() ?>
             </form>
           </div>

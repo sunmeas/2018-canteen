@@ -1,19 +1,6 @@
 
 <?php 
-Class calendar extends CI_Controller{
-	function getEvenCalendar(){
-		$data['title'] = 'Calendar';
-		$data['page'] = 'calendar/even_calendar';
-		$this->load->view('layout', $data);
-	}
-
-	function getMenuCalendar(){
-		$data['title'] = 'Calendar';
-		$data['page'] = 'calendar/menu_calendar';
-		$this->load->view('layout', $data);
-	}
-
-
+Class calender extends CI_Controller{
 	function getCalender(){
 	 $data['title'] = 'Calender';
 	 $data['page'] = 'calender/calender';

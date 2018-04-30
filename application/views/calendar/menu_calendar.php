@@ -4,13 +4,12 @@
 <script src="<?php echo base_url();?>assets/fullcalendar-3.8.2/fullcalendar.min.js"></script>
 <div class="row">
     <div class="col-md-3"></div>
-    <div class="col-md-8">
+    <div class="col-md-8"><hr>
 
 
 
-<h1>FullCalendar widget</h1>
-<p>FullCalendar is a widget allowing to display calendar and agenda views. Please visit their website for more information:
-  <a target="_blank" href="https://fullcalendar.io/">https://fullcalendar.io/</a></p>
+<h1>List Menu Calendar</h1>
+<p>Menu Calendar may be able to allow the connected user can add the menu celendar event.</p>
 
 <div id='calendar'></div>
 <!-- create modal of order item -->
@@ -139,53 +138,28 @@ $(document).ready(function() {
     eventLimit: true, // allow "more" link when too many events
     events: [
       {
-        title: 'All Day Event',
+        title: 'Dinner party',
         start: '2017-11-01'
       },
       {
-        title: 'Long Event',
+        title: 'Dinner party with staff',
         start: '2017-11-07',
-        end: '2017-11-10'
+        end: '2017-11-07'
       },
       {
         id: 999,
-        title: 'Repeating Event',
+        title: 'Mixxed vegetables with leace',
         start: '2017-11-09T16:00:00'
       },
-      {
+       {
         id: 999,
-        title: 'Repeating Event',
-        start: '2017-11-16T16:00:00'
+        title: 'Khmer cheese',
+        start: '2017-11-09T16:00:00'
       },
-      {
-        title: 'Conference',
-        start: '2017-11-11',
-        end: '2017-11-13'
-      },
-      {
-        title: 'Meeting',
-        start: '2017-11-12T10:30:00',
-        end: '2017-11-12T12:30:00'
-      },
-      {
-        title: 'Lunch',
-        start: '2017-11-12T12:00:00'
-      },
-      {
-        title: 'Meeting',
-        start: '2017-11-12T14:30:00'
-      },
-      {
-        title: 'Happy Hour',
-        start: '2017-11-12T17:30:00'
-      },
-      {
-        title: 'Dinner',
-        start: '2017-11-12T20:00:00'
-      },
-      {
-        title: 'Birthday Party',
-        start: '2017-11-13T07:00:00'
+       {
+        id: 999,
+        title: 'Fry ege',
+        start: '2017-11-09T16:00:00'
       },
       {
         title: 'Click for Google',

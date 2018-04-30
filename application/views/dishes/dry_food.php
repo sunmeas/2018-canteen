@@ -3,7 +3,7 @@
 <div class="container">
 	<hr>
 		<div class="header text-center">
-			<h1>Lists all dry foods</h1>
+			<h1 style="color: lightblue">Lists all dry foods</h1>
 		</div>
 		<div class="row">
 			<div class="col-md-2"></div>
